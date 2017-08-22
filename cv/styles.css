@@ -1,0 +1,119 @@
+html,body {
+	font-family: Verdana, Arial, Helvetica;
+	margin: 5px auto 0 auto;
+	max-width: 600px;
+}
+
+@media (max-width: 640px) {
+	html,body {
+		margin: 0;
+		width: 100%;
+	}
+}
+
+h1 {
+	text-align:center;
+	background: #DEDEDE;
+	padding: 10px 0;
+	margin: 10px;
+}
+h2 {
+	text-align:center;
+	background: #DEDEDE;
+	padding: 5px 0;
+	margin: 0;
+}
+
+ul,ol,li,dl,dt {
+	list-style-type: none;
+}
+
+dd {
+	margin: 10px 20px;
+}
+
+.skills-list {
+	overflow:hidden;
+	margin: 10px;
+	padding: 0;
+}
+
+.skills-list .skill {
+	list-style-type:none;
+	box-sizing: border-box;
+	width: 50%;
+	padding: 10px;
+	margin: 0;
+	float: left;
+}
+
+@media (max-width: 640px) {
+	.skills-list .skill {
+		width: 100%;
+		padding: 0;
+		margin: 0 0 10px 0;
+	}
+}
+
+.section .contract-list, 
+.section .section-body {
+	padding: 20px 0;
+	margin-bottom: 20px;
+}
+
+.section p {
+	margin: 0 20px 1em 0;
+}
+
+.section .sub-title {
+	margin:0;
+}
+
+
+.contract-list {
+	margin: 0;
+	padding: 0;
+}
+.section-title {
+	background: #DDD;
+	font-weight: bold;
+	margin: 20px 0 0 0;
+	padding: 10px 20px;
+}
+.time-period {
+	background: #DDD;
+	font-weight: normal;
+	font-size: 80%;
+	margin: 0;
+	padding: 0 20px 10px 20px;
+}
+.section-description {
+	margin: 20px;
+}
+.section-description img {
+    width: 100%;
+    border: 1px solid #000;
+	margin-top: 20px;
+}
+
+dd.task {
+	margin: 10px 40px ;
+	font-style: italic;
+}
+
+@media (max-width: 640px) {
+	dd.task {
+		margin: 10px 20px ;
+		font-style: italic;
+	}	
+}
+
+#contact-details {
+	text-align:center;
+	font-size: 100%;
+	margin-bottom: 20px;
+}
+
+.item {
+	margin-bottom: 5px;
+}
