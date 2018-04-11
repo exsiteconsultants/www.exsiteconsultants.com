@@ -57,20 +57,52 @@
       <section id="contract-list" class="section">
         <h2 class="sub-title">Contracts</h2>
         <article class="article">
-          <h3 class="article__title">Lead Front End Developer - Department for International Trade</h3>
+          <h3 class="article__title">Front End Developer - Department for International Trade</h3>
           <h4 class="article__subtitle">Apr 2016 - Current</h4>
           <div class="article__body">
             <p>
-              I currently work in an agile team on a project within the Department for International Trade and Investment to replace an existing CRM platform with a new in house developed service. The new platform follows the GDS guidelines for style and layout, adapted to deliver a CRM. Development is user research driven, with regular user testing sessions to gain feedback and help fine tune the design and user interaction.
+              I have worked as a Front-end/full-stack developer on an online service to replace an existing Microsoft Dynamics CRM platform. The new platform follows the GDS guidelines for style and layout adapted to deliver a CRM. Development is agile and user-driven, with regular user research sessions to gain feedback and help fine-tune the design and priorities.
             </p>
             <p>
-              My primary role within this project is to deliver the web front end, though to start with I worked very closely with the user researcher and designer to create a near fully working prototype, using a combination of Postgresql, DJango Rest Framework and Node JS/Sass/Nunjucks. This prototype allowed rapid development of interface ideas and journeys. Once the requirements started to settle, back end developers were brought in to deliver integration with the existing back end and I have focussed on creating the front end screens, flow and components.
+              I joined the project at its inception and was involved in the discovery of user needs and created prototypes to better understand what approach the service should take. The early iterations of the platform were developed purely in Node JS. Later versions split the backend into Django Rest Framework/Postgres/Elastic Search so a dedicated team of back-end developers could take over that part.
             </p>
             <p>
-              As lead front end developer I have also be responsible for setting standards and looking at common themes across project and focused on the creation of a front end toolkit to avoid duplication of work and a consistant user experience. Furthermore I have been providing consultancy and advise on the hiring of other front end developers
+              At one point the application used React JS with client and server side rendering though I moved back to Node/Nunjucks as at that time as there was no real benefit to th
+            </p>
+              <p>
+              The Node JS layer is a large complex codebase using ES6 with styles written in SASS, based loosely on the GOV UK style library with a number of components built on top of it. Tests are split into unit tests written in Mocha/Nock/Sinon and acceptance/integration tests written in Webdriver IO. The project is integrated with Circle CI and Heroku so tests are run automatically and a copy of the platform is deployed for each pull request so it can be demoed and tested before being merged into the live service.
+            </p>
+            <p>
+              Most recently I've introduced Vue JS to the codebase to improve some user interactions and make some pages easier to use in response to user feedback.
             </p>
           </div>
         </article>
+
+        <article class="article">
+            <h3 class="article__title">Full stack developer/consultant</h3>
+            <h4 class="article__subtitle">Feb 2017 - Oct 2017</h4>
+            <div class="article__body">
+              <p>
+                I joined the digital team at Barnardos shortly after it formed to provide consultancy and advice on matters relating to good practice and tools for building online digital services. I set up the initial infrastructure for code management, hosting, testing and also helped set-up Medium for use as a CMS to communicate the work being done.
+              </p>
+              <p>
+                While at Barnardos I developed an online assessment service for the National FGM centre to allow social workers to identify children at risk of FGM and advise on the steps to be taken to protect those children. This project involved going out social workers and discussing their needs and showing them prototypes for a potential service. The prototype was then developed into a fully working service that was later launched in partnership with the Department of Education. The service was written using the following tools:
+              </p>
+              <ul class="tasks">
+                <li class="tasks__task">Node JS</li>
+                <li class="tasks__task">Nunjucks</li>
+                <li class="tasks__task">Postgres</li>
+                <li class="tasks__task">Knex JS</li>
+                <li class="tasks__task">Mocha</li>
+              </ul>
+              <p>
+                The final version was deployed using Heroku with integration into Circle CI to run automated tests.
+              </p>
+              <p>
+                Following on from this I worked on a project to capture user consent for a research project, this involves defining a project and what sort of research is required, the people involved and generating simple consent forms that can be agreed and store that agreement. The project was written in Rails and I worked with a backend develop, creating the templates and styles whilst setting up the testing and hosting infrastructure.
+              </p>
+            </div>
+          </article>
 
         <article class="article">
           <h3 class="article__title">
@@ -79,29 +111,16 @@
           <h4 class="article__subtitle">Mar 2015 - Apr 2016</h4>
           <div class="article__body">
             <p>
-              I worked at the Ministry of Justice in the Office of the Public Guardian developing a
-              <a href="https://www.complete-deputy-report.service.gov.uk/">'Digital deputy' service</a>. The service is
-              designed for members of the public responsible for the finances and welfare of people who have lost the mental capacity to
-              manage their own affairs or make important decisions. My primary role was to develop the frontend of the service inline with styles and
-              guidelines laid down by GDS and work with the GDS community.
+              I worked at the Ministry of Justice in the Office of the Public Guardian developing a 'Digital deputy' service. The service is designed for members of the public responsible for the finances and welfare of people who have lost the mental capacity to manage their own affairs or make important decisions. My primary role was to develop the frontend of the service inline with styles and guidelines laid down by GDS and work with the GDS community.
             </p>
             <p>
-              The service used PHP and Symfony 2 for it's server side framework and the frontend used TWIG to generate HTML pages, with styles authored in SASS and
-              extended the GDS Elements project.
-              The site is accessable for users of differing levels of technical and physical ability and works on all devices, ranging from people with very old
-              computers to the latest mobile devices. The site uses progressive enhancement
-              to improve the experience for devices capable of supporting it, including features such as autosave and real time validation. The focus on the site
-              is to make it as easy to use and as clear as possible. As part of the project I extracted the controls created for it and started to develop a
-              standalone project to make them reusable.
+              The service used PHP and Symfony 2 for it's server side framework and the frontend used TWIG to generate HTML pages, with styles authored in SASS and extended the GDS Elements project. The site is accessable for users of differing levels of technical and physical ability and works on all devices, ranging from people with very old computers to the latest mobile devices. The site uses progressive enhancement to improve the experience for devices capable of supporting it, including features such as autosave and real time validation. The focus on the site is to make it as easy to use and as clear as possible. As part of the project I extracted the controls created for it and started to develop a standalone project to make them reusable.
             </p>
             <p>
-              Javascript components were developed following TDD with
-              tests written in Mocha JS, Integration testing was developed in BEHAT with cross browser testing automated and integrated with Browserstack. The service was
-              developed and deployed using Docker containers to make it easy to develop the platform anywhere and provide predictable deployment.
+              Javascript components were developed following TDD with tests written in Mocha JS, Integration testing was developed in BEHAT with cross browser testing automated and integrated with Browserstack. The service was developed and deployed using Docker containers to make it easy to develop the platform anywhere and provide predictable deployment.
             </p>
             <p>
-              The project was developed following the GDS principles for service delivery, being user research driven and created by a small tight knit team. I worked
-              on the project from early in the Alpha stage and ultimately through a public Beta assessment and learned a lot from that.
+              The project was developed following the GDS principles for service delivery, being user research driven and created by a small tight knit team. I worked on the project from early in the Alpha stage and ultimately through a public Beta assessment and learned a lot from that.
             </p>
           </div>
         </article>
