@@ -56,3 +56,8 @@ a {
   color: #6c757d;
   text-decoration: underline;
 }
+
+h4.article__subtitle {
+  font-size: 1.25rem;
+  color: #6c757d;
+}
