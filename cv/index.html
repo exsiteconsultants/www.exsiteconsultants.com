@@ -4,8 +4,9 @@
 		<title>Zac Tolley</title>
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" type="text/css" media="all" href="styles.css">
-		<link rel="stylesheet" type="text/css" media="print" href="print.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" media="all" href="styles.css">
 		<script type="text/javascript">
 
 		  var _gaq = _gaq || [];
@@ -20,215 +21,298 @@
 
 		</script>
 	</head>
-	<body>
-		<h1>Zac Tolley</h1>
+	<body class="container">
+    <header>
+		  <h1>Zac Tolley</h1>
 
-		<div id="contact-details">
-			<div id="email" class="item">Email: <a href="mailto:zac@thetolleys.com">zac@thetolleys.com</a></div>
-			<div id="phone" class="item">Phone: <a href="tel:+447814013561">+44 (0)7814 013561</a></div>
-			<div id="github" class="item">Githhub: <a href="https://github.com/ztolley">ztolley</a></div>
-			<div id="twitter" class="item">Twitter: <a href="https://www.twitter.com/ztolley">ztolley</a></div>
-		</div>
-			
-		<div id="skills" class="section">
-			<h2 class="sub-title">Key Skills</h2>
-			<ul id="skills-list" class="skills-list">
-				<li class="skill">Node JS</li>
-				<li class="skill">Symfony 2</li>
-				<li class="skill">Docker</li>
-				<li class="skill">Javascript</li>
-				<li class="skill">React JS/Redux</li>
-				<li class="skill">css sass less</li>
-				<li class="skill">Handlebars/Nunjucks/Twig</li>
-				<li class="skill">Mocha Cucumber Behat Webdriver</li>
-				<li class="skill">iOS SDK</li>
-				<li class="skill">Java Spring Jersey</li>
-				<li class="skill">Django</li>
-				<li class="skill">Agile Scrum</li>
-				<li class="skill">Mongo MySql Postgresql</li>
-				<li class="skill">Gulp Grunt</li>
+      <div id="contact-details">
+        <div id="email" class="item">Email: <a href="mailto:zac@thetolleys.com">zac@thetolleys.com</a></div>
+        <div id="phone" class="item">Phone: <a href="tel:+447814013561">+44 (0)7814 013561</a></div>
+        <div id="github" class="item">Githhub: <a href="https://github.com/ztolley">ztolley</a></div>
+        <div id="twitter" class="item">Twitter: <a href="https://www.twitter.com/ztolley">ztolley</a></div>
+      </div>
+    </header>
+
+    <section id="skills" class="section">
+			<h2 class="subtitle">Key Skills</h2>
+			<ul class="skills-list row">
+				<li class="skills-list__skill">Node JS</li>
+				<li class="skills-list__skill">Symfony 2</li>
+				<li class="skills-list__skill">Docker</li>
+				<li class="skills-list__skill">Javascript</li>
+				<li class="skills-list__skill">React JS/Redux</li>
+				<li class="skills-list__skill">css sass less</li>
+				<li class="skills-list__skill">Handlebars/Nunjucks/Twig</li>
+				<li class="skills-list__skill">Mocha Cucumber Behat Webdriver</li>
+				<li class="skills-list__skill">iOS SDK</li>
+				<li class="skills-list__skill">Java Spring Jersey</li>
+				<li class="skills-list__skill">Django</li>
+				<li class="skills-list__skill">Agile Scrum</li>
+				<li class="skills-list__skill">Mongo MySql Postgresql</li>
+				<li class="skills-list__skill">Gulp Grunt</li>
 			</ul>
-		</div>
-		<div id="contracts" class="section">
-			<h2 class="sub-title">Long Term Contracts</h2>
-				<dl id="contract-list" class="contract-list">
-					<dt class="section-title">Lead Front End Developer - Department for International Trade</dt>
-					<dt class="time-period">Apr 2016 - Current</dd>
-					<dd class="section-description">
-						<p>
-							I currently work in an agile team on a project within the Department for International Trade and Investment to replace an existing CRM platform with a new
-							in house developed service. The new platform follows the GDS guidelines for style and layout, adapted to deliver a CRM. Development is user research 
-							driven, with regular user testing sessions to gain feedback and help fine tune the design and user interaction.</p>
-						<p>My primary role within this project is to deliver the web front end, though to start with I worked very closely with the user researcher and 
-						   designer to create a near fully working prototype, using a combination of Postgresql, DJango Rest Framework and Node JS/Sass/Nunjucks. 
-						   This prototype allowed rapid development of interface ideas and journeys. Once the requirements started to settle, back end developers 
-						   were brought in to deliver integration with the existing back end and I have focussed on creating the front end screens, flow and components.
-						</p>
-						<p>As lead front end developer I have also be responsible for setting standards and looking at common themes across project and focused on the creation of a front end 
-						toolkit to avoid duplication of work and a consistant user experience. Furthermore I have been providing consultancy and advise on the hiring of other front end developers
-						<p><img src="dh2.png" alt="Data Hub Screenshot"/></p>
-					</dd>
-					<dt class="section-title">Full Stack Developer - <a href="https://www.complete-deputy-report.service.gov.uk/">Ministry of Justice</a></dt>
-					<dd class="time-period">Mar 2015 - Apr 2016</dd>
-					<dd class="section-description">
-						<p>I worked at the Ministry of Justice in the Office of the Public Guardian developing a 
-							<a href="https://www.complete-deputy-report.service.gov.uk/">'Digital deputy' service</a>. The service is 
-							designed for members of the public responsible for the finances and welfare of people who have lost the mental capacity to 
-							manage their own affairs or make important decisions. My primary role was to develop the frontend of the service inline with styles and 
-							guidelines laid down by GDS and work with the GDS community.
-						</p>	
-						<p>The service used PHP and Symfony 2 for it's server side framework and the frontend used TWIG to generate HTML pages, with styles authored in SASS and 
-							extended the GDS Elements project.
-							The site is accessable for users of differing levels of technical and physical ability and works on all devices, ranging from people with very old 
-							computers to the latest mobile devices. The site uses progressive enhancement 
-							to improve the experience for devices capable of supporting it, including features such as autosave and real time validation. The focus on the site 
-							is to make it as easy to use and as clear as possible. As part of the project I extracted the controls created for it and started to develop a 
-							standalone project to make them reusable.
-						</p>
-						<p>Javascript components were developed following TDD with 
-							tests written in Mocha JS, Integration testing was developed in BEHAT with cross browser testing automated and integrated with Browserstack. The service was 
-							developed and deployed using Docker containers to make it easy to develop the platform anywhere and provide predictable deployment.
-						</p>
-						<p>The project was developed following the GDS principles for service delivery, being user research driven and created by a small tight knit team. I worked 
-							on the project from early in the Alpha stage and ultimately through a public Beta assessment and learned a lot from that.</p>
-						<p><img src="dd1.png" alt="Data Hub Screenshot"/></p>
-					</dd>
-					<dt class="section-title">Senior Developer - BSkyB</dt>
-					<dd class="time-period">Jan 2010 - Mar 2015</dd>
-					<dd class="section-description">
-						<p>I Joined the Sky Search team as a front end developer working primarily with HTML/Javascript/CSS in an agile environment. During my time 
-						at Sky I was responsible for the development of many projects, starting with a redevelopment of search for the Sky help website, and improvement of all of Sky's web 
-						based search services.</p>
-						
-						<p>As part of a Sky wide project to make their sites more responsive, and the introduction of a new search backend, I was 
-						asked to re-write the search sites so that they could integrate with a new backend and provide support for a wide range of devices, from mobile up to desktop.
-						I developed the new system with a NodeJS backend, which allowed fast flexible development and is capable of handling very high volumes of traffic in a 
-						fault tolerant configuration.</p>
-						
-						<p>Some applications I developed were single page web applications, whilst others followed a more traditional route, depending on their needs. I 
-						also developed other prototypes and proof of concept applications including a fully working mockup of 'set top box search' to gain buy in from the business 
-						and an iPad prototype to demonstrate future search capabilities.</p>
-					
-						<p>During development of these systems I setup automated testing using MochaJS for unit testing and Cucumber/Webdriver for integration and cross browser testing.</p>
-					
-						<p>In my last project at Sky I worked as part of a team that delivered a new Search API for use with Sky's upcoming 'Q' box. This is a complex Java/Jersey 
-							server application that ingests program information into Mongo and Solr and then allows access to that via a JSON api. This service had to scale to millions 
-							of users and serve thousands of transactions a second within a very short time, so as not to impact users experience on their TV.</p>
-					
-					</dd>
+    </section>
 
-					<dt class="section-title">Other Recent Projects</dt>
-					<dd class="task">Developed <a href="http://www.parent.cab">Parent Cab</a>, iPhone application to allow user to record car journeys and share them and calculate journey costs</dd>
-					<dd class="task">Developed Android tablet application for use in rail industry to view training and incident data</dd>
-					<dd class="task">Created end to end platform to capture photos, user movement and biometric data into a centralised storage and API to access it. NodeJS, IOS SDK & Arduino</dd>
+    <main role="main">
+      <section id="contract-list" class="section">
+        <h2 class="sub-title">Contracts</h2>
+        <article class="article">
+          <h3 class="article__title">Lead Front End Developer - Department for International Trade</h3>
+          <h4 class="article__subtitle">Apr 2016 - Current</h4>
+          <div class="article__body">
+            <p>
+              I currently work in an agile team on a project within the Department for International Trade and Investment to replace an existing CRM platform with a new in house developed service. The new platform follows the GDS guidelines for style and layout, adapted to deliver a CRM. Development is user research driven, with regular user testing sessions to gain feedback and help fine tune the design and user interaction.
+            </p>
+            <p>
+              My primary role within this project is to deliver the web front end, though to start with I worked very closely with the user researcher and designer to create a near fully working prototype, using a combination of Postgresql, DJango Rest Framework and Node JS/Sass/Nunjucks. This prototype allowed rapid development of interface ideas and journeys. Once the requirements started to settle, back end developers were brought in to deliver integration with the existing back end and I have focussed on creating the front end screens, flow and components.
+            </p>
+            <p>
+              As lead front end developer I have also be responsible for setting standards and looking at common themes across project and focused on the creation of a front end toolkit to avoid duplication of work and a consistant user experience. Furthermore I have been providing consultancy and advise on the hiring of other front end developers
+            </p>
+          </div>
+        </article>
 
-					<dt class="section-title">Senior Developer - T-Mobile</dt>
-					<dd class="time-period">Apr 2009 - Jan 2010 - Present</dd>
-					<dd class="section-description"><p>Responsible for the technical design and development of the Web'n'Walk mobile portal. I was responsible for the development 
-						of the current live portal, and its predecessor, working in a small team to tight deadlines. Whilst in this role I have also been tasked with
-						developing prototypes of ideas for new applications on iPhone and Android and am in the process of writing an app using the Sencha Touch framework.</p></dd>
-					<dd class="task">Analyse marketing requirements</dd>
-					<dd class="task">Produce technical designs</dd>
-					<dd class="task">Develop pages using JSP/Servlets, HTML, CSS and Javascript</dd>
-					<dd class="task">Optimisation of content for mobile handsets</dd>
-					<dd class="task">Development of markup to work on very wide range of handsets</dd>
-					<dd class="task">Develop iPhone apps using Cocoa or HTML5/JS/CSS</dd>
-					<dd class="task">Develop Android applications using Java/HTML5/JS/CSS</dd>
+        <article class="article">
+          <h3 class="article__title">
+            Full Stack Developer - <a href="https://www.complete-deputy-report.service.gov.uk/">Ministry of Justice</a>
+          </h3>
+          <h4 class="article__subtitle">Mar 2015 - Apr 2016</h4>
+          <div class="article__body">
+            <p>
+              I worked at the Ministry of Justice in the Office of the Public Guardian developing a
+              <a href="https://www.complete-deputy-report.service.gov.uk/">'Digital deputy' service</a>. The service is
+              designed for members of the public responsible for the finances and welfare of people who have lost the mental capacity to
+              manage their own affairs or make important decisions. My primary role was to develop the frontend of the service inline with styles and
+              guidelines laid down by GDS and work with the GDS community.
+            </p>
+            <p>
+              The service used PHP and Symfony 2 for it's server side framework and the frontend used TWIG to generate HTML pages, with styles authored in SASS and
+              extended the GDS Elements project.
+              The site is accessable for users of differing levels of technical and physical ability and works on all devices, ranging from people with very old
+              computers to the latest mobile devices. The site uses progressive enhancement
+              to improve the experience for devices capable of supporting it, including features such as autosave and real time validation. The focus on the site
+              is to make it as easy to use and as clear as possible. As part of the project I extracted the controls created for it and started to develop a
+              standalone project to make them reusable.
+            </p>
+            <p>
+              Javascript components were developed following TDD with
+              tests written in Mocha JS, Integration testing was developed in BEHAT with cross browser testing automated and integrated with Browserstack. The service was
+              developed and deployed using Docker containers to make it easy to develop the platform anywhere and provide predictable deployment.
+            </p>
+            <p>
+              The project was developed following the GDS principles for service delivery, being user research driven and created by a small tight knit team. I worked
+              on the project from early in the Alpha stage and ultimately through a public Beta assessment and learned a lot from that.
+            </p>
+          </div>
+        </article>
 
-					<dt class="section-title">Technical Team Lead Mobile Widgets - T-Mobile</dt>
-					<dd class="section-description"><p>Responsible for design and delivery of T-Mobile widget framework and mobile widgets. In this role I 
-						designed a Javascript component based framework to allow development of widgets using a single code base to be deployed to a wide 
-						range of different handsets. I was also responsible for managing a team of 4 developers and communicating with the business.</p></dd>
-					<dd class="task">Analyse marketing requirements</dd>
-					<dd class="task">Produce technical designs</dd>
-					<dd class="task">Liaise with designers to produce wireframe and style guides</dd>
-					<dd class="task">Manage developers</dd>
-					<dd class="task">Manage QA resources</dd>
-					<dd class="task">Develop framework elements, components &amp; widgets</dd>
-					<dd class="task">Plan widget roadmap</dd>
+        <article class="article">
+          <h3 class="article__title">Senior Developer - BSkyB</h3>
+          <h4 class="article__subtitle">Jan 2010 - Mar 2015</h4>
+          <div class="article__body">
+            <p>
+              I Joined the Sky Search team as a front end developer working primarily with HTML/Javascript/CSS in an agile environment. During my time
+              at Sky I was responsible for the development of many projects, starting with a redevelopment of search for the Sky help website, and improvement of all of Sky's web based search services.
+            </p>
+            <p>
+              As part of a Sky wide project to make their sites more responsive, and the introduction of a new search backend, I was
+              asked to re-write the search sites so that they could integrate with a new backend and provide support for a wide range of devices, from mobile up to desktop.
+              I developed the new system with a NodeJS backend, which allowed fast flexible development and is capable of handling very high volumes of traffic in a
+              fault tolerant configuration.
+            </p>
+            <p>
+              Some applications I developed were single page web applications, whilst others followed a more traditional route, depending on their needs. I
+              also developed other prototypes and proof of concept applications including a fully working mockup of 'set top box search' to gain buy in from the business
+              and an iPad prototype to demonstrate future search capabilities.
+            </p>
+            <p>
+              During development of these systems I setup automated testing using MochaJS for unit testing and Cucumber/Webdriver for integration and cross browser testing.
+            </p>
 
-					<dt class="section-title">Technical Analyst/Developer - ITHR/Vodafone</dt>
-					<dd class="time-period">Sep 2007 - Apr 2009</dd>
-					<dd class="section-description"><p>Worked on the 'Next Generation Portal' project within Vodafone Group as technical architect/design authority for 
-						web based widgets. Worked on project from initial inception through to delivery.</p></dd>
-					<dd class="task">Worked within widget based portal development team from inception.</dd>
-					<dd class="task">Part of team responsible for the architecture and design of the Vodafone widget based portal.</dd>
-					<dd class="task">Created interactive widget specification &amp; design</dd>
-					<dd class="task">Created interactive widget API using client side Javascript, PHP and Java servlets.</dd>
-					<dd class="task">Developed a number of interactive and non-interactive widgets to run on PC Web and mobile browser based platforms consisting of elements 
-						including HTML, Javascript, CSS, Servlets, JSP and XSLT.</dd>
-					<dd class="task">Integrated widgets with back systems include both interval Vodafone platforms and external services such as Facebook, Twitter, Google etc.</dd>
-					<dd class="task">Provided widget developer guide for 3rd party developers to develop widgets.</dd>
-					<dd class="footnote">
-						Prior to working on the portal project I was responsible for all localisation of the previous Vodafone Now portal. This simply involved merging core updates 
-						into versions of their portal that had been integrated into the local countries back end services. This task also involved creating automated testing of the 
-						portal and release management to the various operating countries.
-					</dd>
+            <p>
+              In my last project at Sky I worked as part of a team that delivered a new Search API for use with Sky's upcoming 'Q' box. This is a complex Java/Jersey
+              server application that ingests program information into Mongo and Solr and then allows access to that via a JSON api. This service had to scale to millions
+              of users and serve thousands of transactions a second within a very short time, so as not to impact users experience on their TV.
+            </p>
+          </div>
+        </article>
 
-					<dt class="section-title">Lead Technical Designer - O2 UK</dt>
-					<dd class="time-period">Nov 2006 - Sep 2007</dd>
-					<dd class="section-description"><p>Technical lead in development of service to allow SME customers to remotely manage mobile handsets via web based service.</p></dd>
-					<dd class="task">Documented service requirements.</dd>
-					<dd class="task">Reviewed responses from vendors bidding to run service.</dd>
-					<dd class="task">Created high-level design to integrate vendor platform with internal systems.</dd>
-					<dd class="task">Communicated and reviewed design with affected areas within O2 business.</dd>
-					<dd class="task">Worked with vendor to shape the design of their service to meet O2 requirements.</dd>
-					<dd class="task">Created detailed design documentation.</dd>
-					<dd class="task">Worked with various resources to start development of platform.</dd>
+        <article class="article">
+          <h3 class="article__title">Other Recent Projects</h3>
+          <div class="article__body">
+            <p>
+              <a href="http://www.parent.cab">Parent Cab</a>, iPhone application to allow user to record car journeys and share them and calculate journey costs
+            </p>
+            <p>
+              Developed Android tablet application for use in rail industry to view training and incident data
+            </p>
+            <p>
+              Created end to end platform to capture photos, user movement and biometric data into a centralised storage and API to access it. NodeJS, IOS SDK &amp; Arduino
+            </p>
+          </div>
+        </article>
 
-					<dt class="section-title">Engineer/Architect - BIS Internet</dt>
-					<dd class="time-period">Sep 2005 - Nov 2006)</dd>
-					<dd class="section-description"><p>Software evaluation, server/software installation configuration, SMTP (Netscape/Exim), JSP/Java/C/Objective C development, 
-						Postgres/Oracle/MySql Development and support, SIP, SNMP, Tomcat, Solaris, Linux, NT, SIP Express Router</p></dd>
-					<dd class="task">Supported existing large scale messaging platform to insurance and financial community and advised on future direction for messaging 
-						platform architecture</dd>
-					<dd class="task">Reviewed requirements for new operations and monitoring platform to monitor 1,000+ devices and evaluated options.</dd>
-					<dd class="task">Extended OpenNMS, open source Java based application to include new security features and added other functionality. Fed changes back 
-						into public code base.</dd>
-					<dd class="task">Configured SNMP support on servers and implemented reports on usage using snmp statistics.</dd>
-					<dd class="task">Implemented SIP server to allow company to offer new VOIP service.</dd>
-					<dd class="task">Worked on Portal to allow customers of BIS's hosting service to view their server availability and usage.</dd>
+        <article class="article">
+          <h3 class="article__title">Senior Developer - T-Mobile</h3>
+          <h4 class="article__subtitle">Apr 2009 - Jan 2010 - Present</h4>
+          <div class="article__body">
+            <p>
+              Responsible for the technical design and development of the Web'n'Walk mobile portal. I was responsible for the development
+              of the current live portal, and its predecessor, working in a small team to tight deadlines. Whilst in this role I have also been tasked with
+              developing prototypes of ideas for new applications on iPhone and Android and am in the process of writing an app using the Sencha Touch framework.
+            </p>
 
-					<dt class="section-title">Developer/Architect - Alcatel</dt>
-					<dd class="time-period">Aug 2004 - Sep 2005</dt>
-					<dd class="section-description"><p>EPG and interactive TV application development for set-top-boxes using javascript based framework and server framework based on JSP's. Designed 
-						interfaces according to client branding.</p></dd>
-					<dd class="task">Develop and test interactive set-top-box based applications.</dd>
-					<dd class="task">Create/Review style guides with clients.</dd>
-					<dd class="task">Design database, HTML, CSS and JSP code to implement.</dd>
-					<dd class="task">Analyse customer architecture and design solutions to integrate with product platform.</dd>
-					<dd class="task">Produce design specifications and documents.</dd>
-					<dd class="task">Client liaison, customer requirements capture, solution presentation.</dd>
-					<dd class="task">Advise customers and designers on aspects of interface design with respect to interactive TV applications.</dd>
-					<dd class="task">Assist in building development team, strategies and standards.</dd>
+            <ul class="tasks">
+              <li class="tasks__task">Analyse marketing requirements</li>
+              <li class="tasks__task">Produce technical designs</li>
+              <li class="tasks__task">Develop pages using JSP/Servlets, HTML, CSS and Javascript</li>
+              <li class="tasks__task">Optimisation of content for mobile handsets</li>
+              <li class="tasks__task">Development of markup to work on very wide range of handsets</li>
+              <li class="tasks__task">Develop iPhone apps using Cocoa or HTML5/JS/CSS</li>
+              <li class="tasks__task">Develop Android applications using Java/HTML5/JS/CSS</li>
+            </ul>
+          </div>
+        </article>
 
-					<dt class="section-title">Systems Analyst/Architect - Hutchison 3G</dt>
-					<dd class="time-period">Apr 2002 - Apr 2004)</dd>
-					<dd class="section-description"><p>Mobile unified messaging, design, architecture, documentation, team management, project management, integration, implementation, SMTP/IMAP/POP3, 
-						Java, JSP/EJB, SMS, MMS, LDAP, Unix, Perl, SMIL, 3G, Apache, Tomcat, Weblogic, Oracle</p></dd>
-					<dd class="task">Responsible for rollout and TDA for browser based interface to UM platform for all countries (UK, Italy, Sweden, Austria, Australia, Thailand, Hong Kong)</dd>
-					<dd class="task">Gathered and managed requirements from products and marketing</dd>
-					<dd class="task">Managed internal developers and 3rd party vendors, communicating and agreeing requirements, agreeing plans, testing and accepting product deliveries</dd>
-					<dd class="task">Worked with prototype 3G phones to understand capabilities and limitations with regards to mobile browser and mobile email client capabilities</dd>
-					<dd class="task">Created architecture, designs, plans and sizing documentation (Presentations, detailed design documents, architecture diagrams, sequence diagrams etc.). 
-						Presented to all levels of business ranging from engineers to directors.</dd>
-					<dd class="task">Built Solaris, Linux, Tru64 based servers in test and production facilities</dd>
-					<dd class="task">Developed testing strategy, organised testing resources, executed tests</dd>
-					<dd class="task">Advised and designed changes to unified messaging platform to improve functionality and improve anti-spam and anti-virus capabilities</dd>
-					<dd class="task">Lead technical analyst in selection of Instant Messaging and Presence solution for Hutchison 3G worldwide</dd>
-					<dd class="task">Evaluated, prototyped and recommended PC browser based mail application</dd>
-					<dd class="task">Evaluated email billing options, solved integration issues, recommended solution</dd>
-					<dd class="task">Gained thorough understanding of 3G technologies and standards, including SMS, MMS (MM1, MM7 and SMIL), 3G handsets, mobile browsers (xhtml-basic and html) and mpeg4</dd>
-					<dd class="task">Provided consultancy and assisted the implementation of all elements of unified messaging platform (SMTP, IMAP, POP3, LDAP, reverse proxies, JSP/EJB's, Apache, BEA Weblogic, Oracle 8/9)</dd>
-					<dd class="task">Implemented mobile/pc calendar service</dd>
-				</dl>
+        <article class="article">
+          <h3 class="article__title">Technical Team Lead Mobile Widgets - T-Mobile</h3>
+          <div class="article__body">
+            <p>
+              Responsible for design and delivery of T-Mobile widget framework and mobile widgets. In this role I
+              designed a Javascript component based framework to allow development of widgets using a single code base to be deployed to a wide
+              range of different handsets. I was also responsible for managing a team of 4 developers and communicating with the business.
+            </p>
 
-		</div>
-		<div id="interests" class="section">
-			<h2 class="sub-title">Interests</h2>
-			<div class="section-description">
-				<p>When I'm not working on a project or trying out ideas I am kept MORE than busy looking after my kids, the chickens and pretending to be a farmer.</p>
-			</div>
-		</div>
+            <ul class="tasks">
+              <li class="tasks__task">Analyse marketing requirements</li>
+              <li class="tasks__task">Produce technical designs</li>
+              <li class="tasks__task">Liaise with designers to produce wireframe and style guides</li>
+              <li class="tasks__task">Manage developers</li>
+              <li class="tasks__task">Manage QA resources</li>
+              <li class="tasks__task">Develop framework elements, components &amp; widgets</li>
+              <li class="tasks__task">Plan widget roadmap</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="article">
+          <h3 class="article__title">Technical Analyst/Developer - ITHR/Vodafone</h3>
+          <h4 class="article__subtitle">Sep 2007 - Apr 2009</h4>
+          <div class="article__body">
+            <p>
+              Worked on the 'Next Generation Portal' project within Vodafone Group as technical architect/design authority for
+              web based widgets. Worked on project from initial inception through to delivery.
+            </p>
+
+            <ul class="tasks">
+              <li class="tasks__task">Worked within widget based portal development team from inception.</li>
+              <li class="tasks__task">Part of team responsible for the architecture and design of the Vodafone widget based portal.</li>
+              <li class="tasks__task">Created interactive widget specification &amp; design</li>
+              <li class="tasks__task">Created interactive widget API using client side Javascript, PHP and Java servlets.</li>
+              <li class="tasks__task">Developed a number of interactive and non-interactive widgets to run on PC Web and mobile browser based platforms consisting of elements including HTML, Javascript, CSS, Servlets, JSP and XSLT.</li>
+              <li class="tasks__task">Integrated widgets with back systems include both interval Vodafone platforms and external services such as Facebook, Twitter, Google etc.</li>
+              <li class="tasks__task">Provided widget developer guide for 3rd party developers to develop widgets.</li>
+            </ul>
+
+            <p>
+              Prior to working on the portal project I was responsible for all localisation of the previous Vodafone Now portal. This simply involved merging core updates
+              into versions of their portal that had been integrated into the local countries back end services. This task also involved creating automated testing of the
+              portal and release management to the various operating countries.
+            </p>
+          </div>
+        </article>
+
+        <article class="article">
+          <h3 class="article__title">Lead Technical Designer - O2 UK</h3>
+          <h4 class="article__subtitle">Nov 2006 - Sep 2007</h4>
+          <div class="article__body">
+            <p>Technical lead in development of service to allow SME customers to remotely manage mobile handsets via web based service.</p>
+
+            <ul class="tasks">
+              <li class="tasks__task">Documented service requirements.</li>
+              <li class="tasks__task">Reviewed responses from vendors bidding to run service.</li>
+              <li class="tasks__task">Created high-level design to integrate vendor platform with internal systems.</li>
+              <li class="tasks__task">Communicated and reviewed design with affected areas within O2 business.</li>
+              <li class="tasks__task">Worked with vendor to shape the design of their service to meet O2 requirements.</li>
+              <li class="tasks__task">Created detailed design documentation.</li>
+              <li class="tasks__task">Worked with various resources to start development of platform.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="article">
+          <h3 class="article__title">Engineer/Architect - BIS Internet</h3>
+          <h4 class="article__subtitle">Sep 2005 - Nov 2006)</h4>
+          <div class="article__body">
+            <p>
+              Software evaluation, server/software installation configuration, SMTP (Netscape/Exim), JSP/Java/C/Objective C development,
+              Postgres/Oracle/MySql Development and support, SIP, SNMP, Tomcat, Solaris, Linux, NT, SIP Express Router.
+            </p>
+
+            <ul class="tasks">
+              <li class="tasks__task">Supported existing large scale messaging platform to insurance and financial community and advised on future direction for messaging
+                platform architecture</li>
+              <li class="tasks__task">Reviewed requirements for new operations and monitoring platform to monitor 1,000+ devices and evaluated options.</li>
+              <li class="tasks__task">Extended OpenNMS, open source Java based application to include new security features and added other functionality. Fed changes back
+                into public code base.</li>
+              <li class="tasks__task">Configured SNMP support on servers and implemented reports on usage using snmp statistics.</li>
+              <li class="tasks__task">Implemented SIP server to allow company to offer new VOIP service.</li>
+              <li class="tasks__task">Worked on Portal to allow customers of BIS's hosting service to view their server availability and usage.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="article">
+          <h3 class="article__title">Developer/Architect - Alcatel</h3>
+          <h4 class="article__subtitle">Aug 2004 - Sep 2005</h4>
+          <div class="article__body">
+            <p>
+              EPG and interactive TV application development for set-top-boxes using javascript based framework and server
+              framework based on JSP's. Designed interfaces according to client branding.
+            </p>
+
+            <ul class="tasks">
+              <li class="tasks__task">Develop and test interactive set-top-box based applications.</li>
+              <li class="tasks__task">Create/Review style guides with clients.</li>
+              <li class="tasks__task">Design database, HTML, CSS and JSP code to implement.</li>
+              <li class="tasks__task">Analyse customer architecture and design solutions to integrate with product platform.</li>
+              <li class="tasks__task">Produce design specifications and documents.</li>
+              <li class="tasks__task">Client liaison, customer requirements capture, solution presentation.</li>
+              <li class="tasks__task">Advise customers and designers on aspects of interface design with respect to interactive TV applications.</li>
+              <li class="tasks__task">Assist in building development team, strategies and standards.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="article">
+          <h3 class="article__title">Systems Analyst/Architect - Hutchison 3G</h3>
+          <h4 class="article__subtitle">Apr 2002 - Apr 2004)</h4>
+          <div class="article__body">
+            <p>
+              Mobile unified messaging, design, architecture, documentation, team management, project management, integration, implementation, SMTP/IMAP/POP3,
+              Java, JSP/EJB, SMS, MMS, LDAP, Unix, Perl, SMIL, 3G, Apache, Tomcat, Weblogic, Oracle.
+            </p>
+
+            <ul class="tasks">
+              <li class="tasks__task">Responsible for rollout and TDA for browser based interface to UM platform for all countries (UK, Italy, Sweden, Austria, Australia, Thailand, Hong Kong)</li>
+              <li class="tasks__task">Gathered and managed requirements from products and marketing</li>
+              <li class="tasks__task">Managed internal developers and 3rd party vendors, communicating and agreeing requirements, agreeing plans, testing and accepting product deliveries</li>
+              <li class="tasks__task">Worked with prototype 3G phones to understand capabilities and limitations with regards to mobile browser and mobile email client capabilities</li>
+              <li class="tasks__task">Created architecture, designs, plans and sizing documentation (Presentations, detailed design documents, architecture diagrams, sequence diagrams etc.).
+          Presented to all levels of business ranging from engineers to directors.</li>
+              <li class="tasks__task">Built Solaris, Linux, Tru64 based servers in test and production facilities</li>
+              <li class="tasks__task">Developed testing strategy, organised testing resources, executed tests</li>
+              <li class="tasks__task">Advised and designed changes to unified messaging platform to improve functionality and improve anti-spam and anti-virus capabilities</li>
+              <li class="tasks__task">Lead technical analyst in selection of Instant Messaging and Presence solution for Hutchison 3G worldwide</li>
+              <li class="tasks__task">Evaluated, prototyped and recommended PC browser based mail application</li>
+              <li class="tasks__task">Evaluated email billing options, solved integration issues, recommended solution</li>
+              <li class="tasks__task">Gained thorough understanding of 3G technologies and standards, including SMS, MMS (MM1, MM7 and SMIL), 3G handsets, mobile browsers (xhtml-basic and html) and mpeg4</li>
+              <li class="tasks__task">Provided consultancy and assisted the implementation of all elements of unified messaging platform (SMTP, IMAP, POP3, LDAP, reverse proxies, JSP/EJB's, Apache, BEA Weblogic, Oracle 8/9)</li>
+              <li class="tasks__task">Implemented mobile/pc calendar service</li>
+            </ul>
+          </div>
+        </article>
+      </section>
+    </main>
 	</body>
 </html>
